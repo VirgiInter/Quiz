@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+html,
+body {
+    background: #242A40;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+/******************/
+
+
+/*   TOP_BAR CSS  */
+
+
+/******************/
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-height: 70px;
+    background-color: #2E425A;
+    box-shadow: 0 4px 8px rgba(51, 51, 51, 0.07);
+}
+
+.top-title {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.top-icon {
+    margin-right: 5px;
+}
+
+.top-close {
+    filter: invert(100%) sepia(0%) saturate(5156%) hue-rotate(334deg) brightness(131%) contrast(108%);
+}

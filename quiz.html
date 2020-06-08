@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=Lbz4dwO7vz">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=Lbz4dwO7vz">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=Lbz4dwO7vz">
+    <link rel="manifest" href="images/site.webmanifest?v=Lbz4dwO7vz">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg?v=Lbz4dwO7vz" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon.ico?v=Lbz4dwO7vz">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="landscape-error">
+        <img src="images/orientation.svg" alt="Orientation Icon"> <span>This website only works in portrait mode, please rotate your device</span>
+    </div>
+    <div class="error-container">
+        <div class="error-box">
+            <img id="close" src="images/close.svg" alt="x">
+            <div class="error-text">
+                <p>You must complete all the questions before submit</p>
+            </div>
+        </div>
+    </div>
+    <div class="quiz">
+        <div class="top-container">
+            <div class="top-title">
+                <span class="top-icon">
+                    <img id="icon" alt="Icon" src="">
+                </span>
+
+                <span class="top-text" id="title"></span>
+            </div>
+
+            <div class="top-close">
+                <a href="index.html"><img src="images/close.svg" alt="Close"></a>
+            </div>
+        </div>
+        <div class="navigation-container" id="navigation-container"></div>
+        <div class="quiz-container" id="quiz-container"></div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+<script src="js/templates.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/quiz.js"></script>
+
+</html>
+
+
+
+<!-- CREDIT  Decode with SHA256 [693a3183b74def11fd5c4ab96f9ae5aafa17409130c6de4480c5fed7e877430b]-->
